@@ -33,6 +33,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Purple")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -76,6 +77,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Purple")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -303,7 +305,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -2 0.25 270)
+			(at -2 0.25 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9f823337-539f-4ddd-a006-0140d52a53e9")
@@ -315,7 +317,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "01063bac-655a-44c6-9eaf-2e00a108fe96")
 			(effects
@@ -506,7 +508,7 @@
 			(uuid "a2b1cb33-10e4-4ec8-a692-d2fa18ceee2e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "77ebfe78-565a-41bc-b061-cd925aba393b")
 			(effects
@@ -815,7 +817,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "e9bbd462-f701-4d09-907d-745e9f73a6d3")
 			(effects
@@ -986,7 +988,7 @@
 			(uuid "fe710c57-608d-478e-a9d3-b72069fbd280")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "2cfef6f3-ba33-431c-92ab-cb3e05f01166")
 			(effects
@@ -3386,7 +3388,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "6a5818e6-f9bd-4c67-b7f0-410f7cf9256a")
 			(effects
@@ -3577,7 +3579,7 @@
 			(uuid "495e13ca-ecbd-4555-8ba3-60db9d246362")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fe7f104b-18d6-4bbd-9f8f-2e18cf811647")
 			(effects
@@ -6387,7 +6389,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "16ba8c6f-2589-467d-bd54-84239ed65672")
 			(effects
@@ -6578,7 +6580,7 @@
 			(uuid "30c6646c-7109-47a0-94a0-98d9fc1b2e55")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "eba84b6e-8f1a-4c26-a88a-ecd2c6e920e0")
 			(effects
@@ -7137,7 +7139,7 @@
 			)
 		)
 		(property "Value" "STM32WB55CEU6"
-			(at 0 4.83 270)
+			(at 0 4.83 -90)
 			(layer "F.Fab")
 			(uuid "2044efe9-c838-43bc-b8d9-8c74d3a750c2")
 			(effects
@@ -7410,7 +7412,7 @@
 			(uuid "791bb4c8-859f-4ff2-8e76-00aca37db260")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5e10eb1c-a8f1-490f-b0fc-9e25ef369852")
 			(effects
@@ -8154,7 +8156,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 2.02 0 270)
+			(at 2.02 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6b513adf-2a41-46d0-aa4a-60c66f7fa7a7")
@@ -8166,7 +8168,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "90ca5aec-7805-4a33-9bdf-c487f304a373")
 			(effects
@@ -8357,7 +8359,7 @@
 			(uuid "bad54aa8-65d7-4ea2-8b13-17bcd69ee13c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cd32e75d-533a-4a7f-bca5-d594a9df8766")
 			(effects
@@ -8789,7 +8791,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "41c1f0f3-c2aa-48c0-9593-c08991901a17")
 			(effects
@@ -8980,7 +8982,7 @@
 			(uuid "fdd0038b-0b68-48ea-897e-9465377a9c5c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6c4a9192-64bf-4ff4-9e41-eacd001852c8")
 			(effects
@@ -12413,7 +12415,7 @@
 		(descr "LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at -1.985 0 270)
+			(at -1.985 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b15a4c1a-b180-4d9f-9de3-8c598405e8e8")
@@ -12425,7 +12427,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "cf45aa61-5738-4e92-8e85-c5ec67faba5b")
 			(effects
@@ -12627,7 +12629,7 @@
 			(uuid "793ccfb1-3333-481a-ac32-6da793e34190")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f9d175a8-5ff8-4c44-9d43-fa2472e7d758")
 			(effects
@@ -13158,7 +13160,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 2.02 0 270)
+			(at 2.02 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2850cd71-d53e-4bee-8525-256e49d74f92")
@@ -13170,7 +13172,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "c9de43ac-c1a0-4ab1-ad96-0cbc9d896b10")
 			(effects
@@ -13361,7 +13363,7 @@
 			(uuid "afc3d02e-a061-445b-a882-dd86c9342434")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6a537a3c-0142-45f9-9e90-7fc301a8641e")
 			(effects
@@ -13649,7 +13651,7 @@
 			)
 		)
 		(property "Value" "32MHz"
-			(at 0 2 270)
+			(at 0 2 -90)
 			(layer "F.Fab")
 			(uuid "73ed5055-9f63-4c6e-ae08-afba41535565")
 			(effects
@@ -13851,7 +13853,7 @@
 			(uuid "49940ad6-fad3-44d3-b62f-5dd879f1228c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3c595826-a780-414b-b16e-89e201a36d95")
 			(effects
@@ -14280,7 +14282,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 1.2 -3.5 270)
+			(at 1.2 -3.5 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b6d2b2f0-f381-4a33-b246-e75dff4d1125")
@@ -14292,7 +14294,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "0f79070f-d116-4109-8851-466a72e8f82c")
 			(effects
@@ -14483,7 +14485,7 @@
 			(uuid "b4d2143f-b960-4ece-a85f-87936520612f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "7d937b9a-0cc5-498a-a689-4a8685a7dddc")
 			(effects
@@ -14530,7 +14532,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -3.075 0.2 270)
+			(at -3.075 0.2 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f045b38f-fbb4-492b-a0e2-5d66d5648949")
@@ -14542,7 +14544,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "18495f72-5a86-4be3-8199-2a46d089e212")
 			(effects
@@ -14733,7 +14735,7 @@
 			(uuid "87951b3d-53d7-4d53-9126-3e85b3b8d4af")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "4a53191c-d458-4c23-ac11-753ee9909c4c")
 			(effects
@@ -18647,8 +18649,8 @@
 		(polygon
 			(pts
 				(xy 71.25 61.5) (xy 71.5 61.75) (xy 71.5 63) (xy 71.375 63.25) (xy 71 63.25) (xy 70.5 63.75) (xy 70.5 65.25)
-				(xy 70 65.75) (xy 70 66.75) (xy 69.5 66.75) (xy 69.5 65.5) (xy 69.5 65.5) (xy 69.5 63.5) (xy 70 63)
-				(xy 70 61.75) (xy 70.25 61.5) (xy 71 61.5)
+				(xy 70 65.75) (xy 70 66.75) (xy 69.5 66.75) (xy 69.5 65.5) (xy 69.5 63.5) (xy 70 63) (xy 70 61.75)
+				(xy 70.25 61.5) (xy 71 61.5)
 			)
 		)
 		(filled_polygon
